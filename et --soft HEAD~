@@ -1,0 +1,217 @@
+[33mcommit a5cb973a947460175a4e143f5d56804795c0fe63[m[33m ([m[1;36mHEAD -> [m[1;32mresolve-conflicts-branch[m[33m)[m
+Merge: 15985ff 71c56e6
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Oct 7 12:19:00 2018 +0530
+
+    small changes
+
+[33mcommit 71c56e6a113d9881d5093dc57d80703e7a64aa31[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a64a0d3 5864471
+Author: aakash <23186614+aakash1904@users.noreply.github.com>
+Date:   Sat Oct 6 19:55:33 2018 +0530
+
+    Merge pull request #3 from aakash1904/aakash_06_10
+    
+    modified
+
+[33mcommit 5864471768b11e7ae7e1e39020ba88c95b238fcd[m[33m ([m[1;31morigin/aakash_06_10[m[33m)[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sat Oct 6 19:41:43 2018 +0530
+
+    modified
+
+[33mcommit 15985ff1f0f1860a98088f12060527f0dc12b15e[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sat Oct 6 19:12:22 2018 +0530
+
+    small changes
+
+[33mcommit a64a0d390528799ea83f640aed450a48d346299f[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sat Oct 6 18:00:25 2018 +0530
+
+    conflicts resolved
+
+[33mcommit 32593bf5d206dd8c4597f5a3f3fd2377c3849692[m
+Merge: bb77f01 50d7d96
+Author: aakash <differaakash@gmail.com>
+Date:   Sat Oct 6 15:48:01 2018 +0530
+
+    modified
+
+[33mcommit bb77f0159e7f2831083914857dbc0e9958b1ab84[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sat Oct 6 15:04:01 2018 +0530
+
+    modified
+
+[33mcommit 50d7d96ba3e4b8f799584a286df4845f41114f02[m[33m ([m[1;32mmaster[m[33m)[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Thu Oct 4 23:03:10 2018 +0530
+
+    join now form made,thank you page made
+
+[33mcommit 11d43246d860133fc870f4a9466efde53ea3b0dd[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Thu Oct 4 00:56:59 2018 +0530
+
+    added a form when a hire button is clicked,gallery is added and changes in css
+
+[33mcommit 57af121de1c1bcd46e26ceb6ee666e0de9fb0dda[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Tue Oct 2 18:18:01 2018 +0530
+
+    Photographer Service implemented and detail component modified
+
+[33mcommit 35428b0bd02ef47ec057ab250f0eae1fe5427b0e[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Tue Oct 2 02:34:44 2018 +0530
+
+    some landing animation,change in  error color
+
+[33mcommit deaff40c08de3c4f6bd07c9c9252f36079421d29[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Tue Oct 2 01:07:51 2018 +0530
+
+    sign in form changed,background for all component,changes in home too
+
+[33mcommit 17fd7d8445260904ba2328a1124f781d6667243d[m[33m ([m[1;31morigin/taran[m[33m)[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Mon Oct 1 08:28:51 2018 +0530
+
+    sign out error solved
+
+[33mcommit b53c524e374f594cac3fffaa6d8faf7948f39f97[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sun Sep 30 23:25:04 2018 +0530
+
+    populated dummy photographers
+
+[33mcommit a54a0b2cedf6bdb59baee7bc7309037c2746d818[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Sep 30 18:39:48 2018 +0530
+
+    change in background color,quote added,undeline on hover
+
+[33mcommit 089c1c4546b34556b5254a492767551adb2ff197[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sun Sep 30 15:30:34 2018 +0530
+
+    search bar added
+
+[33mcommit 1192ab8048e77b5910d2b79ad4053aec7b794e73[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Sep 30 11:21:11 2018 +0530
+
+    background became dark a bit
+
+[33mcommit 4255e0b31d55f9b41d46dfc738f625ecbdc6a716[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Sep 30 11:10:54 2018 +0530
+
+    minor changes
+
+[33mcommit 6dbb67400fd08667d1e604617192ca8d3619b1e5[m
+Merge: 40555c1 a39f14c
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Sep 30 10:46:22 2018 +0530
+
+    added all changes
+
+[33mcommit 40555c18fffba140d185ad58ff2cfd19298b2439[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sun Sep 30 10:42:50 2018 +0530
+
+    router to join added
+
+[33mcommit a39f14c59a09afe3830915a64804057a2011e212[m
+Merge: 76a32cd 4e03e28
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sun Sep 30 09:57:55 2018 +0530
+
+    font-awesome added
+
+[33mcommit 76a32cdb1a7b96fde96713e0a387de4a91f250ec[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sun Sep 30 09:29:06 2018 +0530
+
+    @ 9:28am
+
+[33mcommit 4e03e2800bda2d27bc8130604dee81769124a597[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sun Sep 30 05:34:16 2018 +0530
+
+    modified at @5:34
+
+[33mcommit bf70254210b528b4666e7fe2d6f8a6b2d1bd4566[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sun Sep 30 05:18:30 2018 +0530
+
+    modified sign in enabled
+
+[33mcommit 004a71edd82ad97d0fe1f160fe47fcc910b826a9[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sun Sep 30 03:11:13 2018 +0530
+
+    modified sign in enabled
+
+[33mcommit b2a9da2e64e02433616f952da83fb8b0cce179ad[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sun Sep 30 01:27:55 2018 +0530
+
+    modified
+
+[33mcommit 64575c07226f0948fb988f57a3ed4a482cf350d3[m
+Author: aakash <siddhanta.bhatta92@gmail.com>
+Date:   Sun Sep 30 01:04:27 2018 +0530
+
+    modified module
+
+[33mcommit f84d355327117c601837119edc5d14d1525c9621[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sat Sep 29 21:23:42 2018 +0530
+
+    Routing again
+
+[33mcommit bd2819f4d162e3d72f8eca97991ccfd32202467f[m
+Merge: b790b65 7be3812
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sat Sep 29 20:42:52 2018 +0530
+
+    background image added
+
+[33mcommit b790b65cab80132de37a3813371d74e8e3544188[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sat Sep 29 20:35:09 2018 +0530
+
+    background image added
+
+[33mcommit 658994d71fd2d3e25d7819a472bc3edebd18dbc6[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sat Sep 29 20:09:17 2018 +0530
+
+    someminor changes in background and image
+
+[33mcommit 7be38123c8ccd838f232d53a0bfd09def2458c30[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sat Sep 29 19:37:58 2018 +0530
+
+    added signin page and routing
+
+[33mcommit 2f39ea83fbbbb6380f3142a0f9d6b72af5bd2fc2[m
+Author: rahulnadar2209 <coolrahulnadar@rediffmail.com>
+Date:   Sat Sep 29 18:39:47 2018 +0530
+
+    added navbar
+
+[33mcommit 20b2ea965be6fe2f1a9872add6c0553fa82ddcb3[m
+Author: tarandeep2210 <rubal98@gmail.com>
+Date:   Sat Sep 29 17:06:24 2018 +0530
+
+    start template
+
+[33mcommit 006b307b6863af31e0d7dfefa601f25fd03ddb20[m
+Author: aakash <differaakash@gmail.com>
+Date:   Sat Sep 29 14:48:17 2018 +0530
+
+    Initial commit

@@ -1,0 +1,41 @@
+<!-- <h1 class="homecomp">To be coded on 30-09-2018</h1> -->
+<div class="container">
+<div class='row'>
+     
+  <div class="input-group input-group-lg">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa fa-search" aria-hidden="true"></i></span>
+    </div>
+   
+    <input type="text"   placeholder='Enter Location' [(ngModel)]='listFilter' name="search" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="card">
+  <div class='table-responsive'>
+        <table class='table'
+               *ngIf='photographers && filteredPhotographers?.length'>
+          <thead>
+            <tr>
+              
+              <th>Name</th>
+              <th>Location</th>
+           
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let photographer of filteredPhotographers'>
+             
+              <td>
+                
+                  <a [routerLink]="['/photographer', photographer.id]"> {{ photographer?.name }} </a>
+                
+              </td>
+              <td>{{ photographer?.location }}</td>
+              
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>   
+</div> 

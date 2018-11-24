@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" routerLink="/join">
+        <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
+            <b>Clicks</b>
+    </a>
+    <div class="signin " *ngIf="!signedin">
+        <a routerLink="/signin"> 
+            <i class="fa fa-sign-in" aria-hidden="true"></i> &nbsp;
+                <b>Sign In</b>
+        </a>
+    </div>
+
+    <div class="signin signout" *ngIf="signedin" (click)="onclick()">
+        <a routerLink="/join">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+            <b> Sign Out</b>
+        </a>
+    </div>
+</nav>

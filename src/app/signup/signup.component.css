@@ -1,0 +1,48 @@
+.card{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:2%;
+    position: absolute;
+    margin-bottom: 2%;
+    
+}
+.card-header{
+    background-color: rgb(12, 55, 95);
+    color: white;
+    
+}  
+.button-row button{
+  margin-right: 8px;
+  
+  background-color: rgb(12, 55, 95);
+  
+}
+.button-row button i{
+    color: white;
+}
+  .full-width {
+    width: 100%;
+
+  }
+  i{
+      color: rgb(12, 55, 95);
+  }
+  mat-form-field {
+    font-size: 20px;
+    
+  }
+  
+.background{
+    border: 0 !important;
+    border-radius:0 !important;
+    margin-right: 0;
+    margin-left: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),black), url("/assets/images/deer.jpg");
+    min-height: 100%;
+    background-size: cover;   
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    
+}

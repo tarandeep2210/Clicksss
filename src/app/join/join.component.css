@@ -1,0 +1,82 @@
+.ptext{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+    letter-spacing: 6px;
+    
+    position: relative;
+}
+/* h3,h2,h1{
+    animation: text 3s 1;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+        
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+} */
+.ptext {
+	padding-top:10%;
+	color: #f0f0f0;
+}
+
+.ptext h1 span{
+	color:orange;
+}
+
+.section-btn {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+.section-btn,h3,h2,h1 {
+    animation: animate 2s 1;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    transition: ease-in-out 0.3s;
+    text-decoration: none !important;
+}
+.btn:hover{
+    background: orange;
+    border-color: white;
+	color:white;
+}
+
+
+
+.background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),black), url("/assets/images/cam3.jpg");
+    min-height: 100%;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    height: 100vh;
+}

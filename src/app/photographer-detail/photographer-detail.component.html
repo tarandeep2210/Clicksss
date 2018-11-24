@@ -1,0 +1,165 @@
+<div class="background">
+    <div class="container">
+    <div class="card" *ngIf='photographer'>
+    <h5 class="card-header text-center">Photographer Details</h5>
+    <div class="card-body">
+        <div class="row">
+        <img class="card-img-top" src="/src/assets/images/photo-1475274226786-e636f48a5645.jpg" alt="Card image cap">
+        <div class="detail">
+        <div>
+            <h5 class="card-title">
+                <a [routerLink]="['/photographer', photographer.id]">
+                        {{ photographer?.name }}
+                </a>
+            </h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">HIRE</a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="card-footer text-muted text-center">
+            Expert in Wedding Shoots
+            </div>
+    </div>
+    </div>
+    <!-- </div> -->
+
+                                    <!-- gallery -->
+
+    <div class="card-deck">
+    <div class="card">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="mdb-lightbox-ui">
+            <div class="mdb-lightbox no-margin">
+                <figure class="col-md-3">
+                    <a href="/assets/images/deer.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/deer.jpg" class="img-fluid">               
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/gull.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/gull.jpg" class="img-fluid" />
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/deer.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/deer.jpg" class="img-fluid" />
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/bench.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/bench.jpg" class="img-fluid" />                     
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/cam3.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/cam3.jpg" class="img-fluid" />                      
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/deer.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/deer.jpg" class="img-fluid" />                      
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/gull.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/gull.jpg" class="img-fluid" />                      
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/deer.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/deer.jpg" class="img-fluid" />                      
+                    </a>
+                </figure>
+    
+                <figure class="col-md-3">
+                    <a href="/assets/images/bench.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/bench.jpg" class="img-fluid" />                      
+                    </a>
+                </figure>
+                <figure class="col-md-3">
+                    <a href="/assets/images/gull.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/gull.jpg" class="img-fluid" />                        
+                    </a>
+                </figure>
+                <figure class="col-md-3">
+                    <a href="/assets/images/deer.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/deer.jpg" class="img-fluid" />                        
+                    </a>
+                </figure>
+                <figure class="col-md-3">
+                    <a href="/assets/images/cam3.jpg" data-size="1600x1067">
+                        <img alt="picture" src="/assets/images/cam3.jpg" class="img-fluid" />                        
+                    </a>
+                </figure>
+    
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    
+
+
+                                    <!-- customer detail form -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Register Your Details</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+                <i class="fa fa-user prefix grey-text"></i>
+                <input type="text" id="form34" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form34">Your name</label>
+            </div>
+
+            <div class="md-form mb-5">
+                <i class="fa fa-envelope prefix grey-text"></i>
+                <input type="email" id="form29" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form29">Your email</label>
+            </div>
+
+            <div class="md-form mb-5">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+                <input type="text" id="form32" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form32">Phone Number</label>
+            </div>
+
+            <div class="md-form mb-5">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="text" id="form32" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form32">Date</label>
+        </div>      
+
+            <div class="md-form">
+            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                <label data-error="wrong" data-success="right" for="form8">Address</label>
+            </div>
+            <button type="submit" class="btn btn-danger" routerLink="/thankyou" data-dismiss="modal">
+                    Submit</button>
+
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,113 @@
+<!-- <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+        <form (ngSubmit)="onSignup(f)" #f="ngForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="name" id="name" name="name" ngModel class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Mail</label>
+                <input type="email" id="email" name="email" ngModel class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact</label>
+                <input type="contact" id="contact" name="contact" ngModel class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" ngModel class="form-control">
+            </div>
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+        </form>
+    </div>
+</div> -->
+
+
+
+
+<div class="background">
+    <div class="card">
+
+        <h5 class="card-header text-center py-4">
+            Sign up
+        </h5>
+
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0 container">
+
+            <!-- Form -->
+            <form class="text-center" (ngSubmit)="onSignup(f)" #f="ngForm">
+
+
+                <!-- First name -->
+                <div class="form-group">
+                    <mat-form-field class="full-width">
+                        <span matPrefix><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;</span>
+                        <span><input matInput placeholder="Name" required
+                        type="name" id="name" name="name" ngModel class="form-control"></span>
+                    </mat-form-field>
+                </div>
+
+
+                <!-- E-mail -->
+                <div class="form-group">
+                    <mat-form-field class="full-width">
+                        <span matPrefix><i class="fa fa-envelope prefix"></i> &nbsp; &nbsp; </span>
+                        <input matInput placeholder="Email" required type="email" id="email" name="email" ngModel class="form-control">
+                        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+                    </mat-form-field>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <mat-form-field class="full-width">
+                        <span matPrefix><i class="fa fa-unlock-alt" aria-hidden="true"></i> &nbsp; &nbsp; </span>
+                        <input matInput placeholder="password" required type="password" id="password" name="password" ngModel class="form-control">
+                    </mat-form-field>
+                </div>
+
+                <!-- Phone number -->
+                <div class="form-group">
+                    <mat-form-field class="full-width">
+                        <span matPrefix><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;</span>
+                        <input matInput placeholder="Contact No" type="contact" id="contact" name="contact" ngModel class="form-control">
+                    </mat-form-field>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                    <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe to our newsletter</label>
+                </div>
+
+                <!-- Sign up button -->
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign up</button>
+
+                <!-- Social register -->
+                <p>or sign up with:</p>
+                <div class="button-row">
+                    <button mat-fab color="white" class="btn-floating btn-fb btn-sm"><i class="fa fa-facebook"></i></button>
+                    <button mat-fab color="white" class="btn-floating btn-tw btn-sm"><i class="fa fa-twitter"></i></button>
+                    <button mat-fab color="white" class="btn-floating btn-li btn-sm"><i class="fa fa-linkedin"></i></button>
+                    <button mat-fab color="white" class="btn-floating btn-git btn-sm"><i class="fa fa-github"></i></button>
+
+                </div>
+
+
+                <hr>
+
+                <!-- Terms of service -->
+                <p>By clicking
+                    <em>Sign up</em> you agree to our
+                    <a href="" target="_blank">terms of service</a> and
+                    <a href="" target="_blank">terms of service</a>. </p>
+
+            </form>
+            <!-- Form -->
+
+        </div>
+
+    </div>
+    <!-- Material form register -->
+
+</div>

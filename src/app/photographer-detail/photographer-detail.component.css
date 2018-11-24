@@ -1,0 +1,144 @@
+.homecomp {
+    color: white;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top{
+    width:200px;
+    height: 200px;
+    margin-left: 140px;
+
+}
+.detail{
+    margin-right:100px;
+    margin-left: 100px;
+ 
+}
+.container{
+    margin-top:1%;
+}
+
+
+
+
+/*                          */
+
+
+
+.row {
+    margin-top: 30px;    
+    max-width: 1440px;
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #f1f1f1!important;
+    width: 100%;
+   
+}
+.col-md-12{
+    margin-left: 3%;
+}
+.card-deck{
+    margin-bottom: 70px;
+    margin-top: 20px;
+
+}
+figure {
+    display: inline-flex;
+    object-fit:cover;    
+    margin: 0 0;
+    padding: 0%;
+    transition: all 300ms line;
+    opacity: 0.9;     
+    overflow: hidden;
+}
+
+figure img{
+    display: inline-flex;
+    transition:all 300ms linear;
+    
+}
+figure:hover img{    
+      transform:scale(1.2);
+   
+}
+figure:hover{
+    opacity: 1;
+}
+            /* details list inside the image */
+figure .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    transition:all .4s ease-in-out
+}
+
+figure h2 {
+    text-transform:uppercase;
+    color:#fff;
+    text-align:center;
+    position:relative;
+    font-size:17px;
+    background:rgba(0,0,0,0.6);
+    transform:translatey(-100px);
+    transition:all .2s ease-in-out;
+    padding:20px;
+}
+
+figure p.info {
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transition:all .2s ease-in-out;
+    margin:50px 125px auto;
+    padding:10px 30px;
+}
+
+figure p.info:hover {
+    box-shadow:0 0 5px #fff;
+}
+
+figure:hover .overlay {
+    opacity:1;
+}
+figure:hover h2,figure:hover p.info {
+    opacity:1;
+    transform:translatey(0);
+}
+    
+figure:hover p.info {
+    transition-delay:.2s;
+}
+
+.view{
+    text-align: right !important;
+    padding:5px;
+    margin-bottom: 10px;
+    
+}
+
+.background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),black), url("/assets/images/cam4.jpg");
+    min-height: 100%;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
+
+
+

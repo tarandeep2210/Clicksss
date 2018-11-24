@@ -1,0 +1,29 @@
+
+.card-header,.card-footer{
+    padding: 25px;
+    
+}
+
+
+h1{
+    color: rgb(32, 228, 15);
+}
+
+.card{
+    margin-top:2%;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),black), url("/assets/images/cam4.jpg");
+    min-height: 100%;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
